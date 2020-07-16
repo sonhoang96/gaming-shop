@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "../Styles/footer.css"
 
 export default class Footer extends React.Component {
 	render() {
@@ -56,7 +57,7 @@ export default class Footer extends React.Component {
 			            <p className="text-secondary text-capitalize text-left">Copyright © my website 2020</p>
 			          </div>
 			          <div className="col-6">
-			            <p className="text-secondary text-capitalize text-right">Privacy Policy • Terms and Conditions</p>
+			            <p className="text-secondary text-capitalize text-right"><a href="#!">Privacy Policy</a> • <a href="#!">Terms and Conditions</a></p>
 			          </div>
 			        </div>
 			      </div>

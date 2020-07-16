@@ -1,6 +1,6 @@
 import React from 'react';
 import FounderInfo from "./FounderInfo.js";
-import "../Style/about.css";
+import "../Styles/about.css";
 
 export default class About extends React.Component {
 	render() {
@@ -19,12 +19,12 @@ export default class About extends React.Component {
 		            </div>
 		          </div>
 		          <FounderInfo 
-		          	firstName={"Name Founder"} 
-		          	secondName={"Name Founder"} 
-		          	thirdName={"Name Founder"}
-		          	portrait_first={"portrait-1.jpg"}
-		          	portrait_second={"portrait-2.jpg"}
-		          	portrait_third={"portrait-3.jpg"}
+		          	firstName={"Christina Costanza"} 
+		          	secondName={"Jason Mraz"} 
+		          	thirdName={"Paul George"}
+		          	portrait_first = "https://i.pinimg.com/originals/ad/8e/d9/ad8ed912559b9ee563fc2a1bf49dba7a.jpg"
+		          	portrait_second = "https://i.pinimg.com/originals/81/71/a6/8171a6f0d1476a7a43f8a72791ad7cbd.jpg"
+		          	portrait_third = "https://i.pinimg.com/originals/cd/51/80/cd51804b1fd1a97cc4430000a27db05f.jpg"
 		          />
 		        </div>
 		    </div>

@@ -1,18 +1,24 @@
 import React from 'react';
 import About from "../Component/About.js";
+import FounderDetailInfo from "../Component/FounderDetailInfo.js";
 import {
-	BrowserRouter as Route,
+	BrowserRouter as Router,
+	Route,
 	Switch
 } from "react-router-dom"
-
 export default class URL_Router extends React.Component {
 	render() {
 		return (
-			<Switch>
-				<Route path="/">
-					<About/>
-				</Route>
-			</Switch>
+			<Router>
+				<Switch>
+					<Route exact path="/about">
+						<About/>
+					</Route>
+					<Route exact path="/about/:founder-:image.html" 
+						render={({ match }) => <FounderDetailInfo match={match} />}
+					/>
+				</Switch>
+			</Router>
 		)
 	}
 }

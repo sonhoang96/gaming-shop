@@ -1,0 +1,58 @@
+footer {
+    background: antiquewhite;
+    padding: 2em 0;
+    color: #5c5d5c;
+}
+
+footer div[class*="col-"] a:hover{
+    text-decoration: none;
+    color: #ef1760;
+}
+
+footer div[class*="col-"] a {
+    color: #5c5d5c;
+}
+
+footer div[class*="col-"] a i {
+    font-size: 2em;
+    padding: 0 10px;
+}
+
+.social-media a:nth-child(1):hover {
+    color: #3b5998 !important;
+}
+
+.social-media a:nth-child(2):hover {
+    color: #E91E63 !important;
+}
+
+.social-media a:nth-child(3):hover {
+    color: #00acee !important;
+}
+
+.social-media a:nth-child(4):hover {
+    color: #4CAF50 !important;
+}
+
+.phone i, .mail i {
+    font-size: 1.5em;
+    padding: 5px 6px;
+}
+
+.phone p, .mail p {
+    font-weight: 500;
+}
+
+.col-4.text-center:hover img {
+    box-shadow: 0px 0px 15px white;
+}
+
+ul.list-param {
+    font-weight: 500;
+}
+
+h2.display-4.title {
+    font-weight: 500;
+    margin-top: 1em;
+    color: #ffffff;
+}
