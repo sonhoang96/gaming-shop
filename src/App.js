@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./Component/Navbar.js";
-import Header from "./Component/Header.js";
-import URL_Router_About from "./Router/URL_Router_About.js";
-import Footer from "./Component/Footer.js";
-import Home from "./Component/Home.js";
+import Navbar from "./Component/Header/Navbar.js";
+import Header from "./Component/Header/Header.js";
+import Footer from "./Component/Footer/Footer.js";
+import Home from "./Component//Home/Home.js";
+import About from "./Component/About/About.js";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
 	  <Navbar/>
       <Header />
       <Home />
-      <URL_Router_About/>
+      <About />
       <Footer/>
     </div>
   );
