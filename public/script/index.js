@@ -19,9 +19,9 @@ $('#myBtn').bind('click', function() {
 	let remote = $('#myBtn');
 	if(video[0].paused){
 		video[0].play();
-		remote.text('pause');
+		remote.text('Pause');
 	}else{
 		video[0].pause();
-		remote.text('play');
+		remote.text('Play');
 	}
 });

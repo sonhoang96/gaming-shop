@@ -1,19 +1,19 @@
-footer {
+#footer {
     background: antiquewhite;
     padding: 2em 0;
     color: #5c5d5c;
 }
 
-footer div[class*="col-"] a:hover{
+#footer div[class*="col-"] a:hover{
     text-decoration: none;
     color: #ef1760;
 }
 
-footer div[class*="col-"] a {
+#footer div[class*="col-"] a {
     color: #5c5d5c;
 }
 
-footer div[class*="col-"] a i {
+#footer div[class*="col-"] a i {
     font-size: 2em;
     padding: 0 10px;
 }

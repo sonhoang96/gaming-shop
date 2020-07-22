@@ -37,7 +37,7 @@ export default class FounderDetailInfo extends React.Component {
 					        <li className="list-group-item">magnam, praesentium quam quibusdam laboriosam</li>
 					        <li className="list-group-item">lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
 					    </ul>
-		                <Link to="/about" className="btn btn-outline-dark btn-block">Back</Link>
+		                <Link to="/" className="btn btn-outline-dark btn-block">Back</Link>
 		              </div> {/* end card-body */}
 		            </div> {/* end col-5 */}
 		          </div> {/* end row */}

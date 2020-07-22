@@ -9,7 +9,8 @@ ul.list-param {
 h2.display-4.title {
     font-weight: 500;
     margin-top: 1em;
-    color: #ffffff;
+    color: #171717 !important;
+    position: relative;
 }
 
 img.portrait-height {
@@ -36,7 +37,25 @@ img.card-img-top.founder-info {
 }
 
 h2.display-4.text-capitalize.title:after {
-	content: ':';
+	content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left:0;
+    width: 25%;
+    height: 2px;
+    background: black;
+}
+
+h2.display-4.text-capitalize.title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 25%;
+    height: 2px;
+    background: black;
 }
 
 @keyframes opacity{
